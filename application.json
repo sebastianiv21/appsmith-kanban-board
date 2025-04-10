@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "FLUID"
+  },
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
@@ -20,8 +23,15 @@
     {
       "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
