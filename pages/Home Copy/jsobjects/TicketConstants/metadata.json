@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "67f523bf5a24c965b149ec3d_2d954a72-69ff-4f98-8a6e-e99ead0a18fd",
+  "id": "Home Copy_TicketConstants",
+  "unpublishedCollection": {
+    "name": "TicketConstants",
+    "pageId": "Home Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "supportTiers",
+        "value": "{\n  \"community\": \"Community\",\n  \"business_edition\": \"Business\",\n  \"trial_business\": \"Trial BE\",\n  \"enterprise_edition\": \"Enterprise\",\n  \"trial_enterprise\": \"Trial EE\"\n}"
+      },
+      {
+        "name": "ticketStatus",
+        "value": "[\"N/A\", \"New\", \"Pending on L1\", \"Pending on L2\", \"Pending on Customer\", \"Reminder 1\", \"Reminder 2\", \"Inactive\", \"On-hold\"]"
+      },
+      {
+        "name": "ticketSeverity",
+        "value": "[\"N/A\", \"Critical\", \"High\", \"Medium\", \"Normal\", \"Low\"]"
+      },
+      {
+        "name": "ticketSupportTier",
+        "value": "[{\n  label: \"N/A\",\n  value: \"n/a\"\n}, {\n  label: \"Enterprise\",\n  value: \"enterprise_edition\"\n}, {\n  label: \"Enterprise Trial\",\n  value: \"trial_enterprise\"\n}, {\n  label: \"Business\",\n  value: \"business_edition\"\n}, {\n  label: \"Business Trial\",\n  value: \"trial_business\"\n}, {\n  label: \"Community\",\n  value: \"community\"\n}]"
+      },
+      {
+        "name": "oracleApp",
+        "value": "\"https://internal.appsmith.com/app/oracle/ticket-details-662d74ffc3e4d34941e56ede?branch=master&environment=production\""
+      }
+    ]
+  }
+}

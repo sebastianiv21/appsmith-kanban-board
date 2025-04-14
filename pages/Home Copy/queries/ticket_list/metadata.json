@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67f523bf5a24c965b149ec3d_c908995e-3994-435e-84bb-6ec106dccbdf",
-  "id": "Home_ticket_list",
+  "gitSyncId": "67f523bf5a24c965b149ec3d_af6d0def-7708-4a51-b44f-a6a50e5922a3",
+  "id": "Home Copy_ticket_list",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
     ],
     "executeOnLoad": true,
     "name": "ticket_list",
-    "pageId": "Home",
+    "pageId": "Home Copy",
     "userSetOnLoad": false
   }
 }

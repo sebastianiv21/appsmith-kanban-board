@@ -31,6 +31,10 @@
     {
       "id": "Page2",
       "isDefault": false
+    },
+    {
+      "id": "Home Copy",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

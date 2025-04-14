@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "67f523bf5a24c965b149ec3d_c908995e-3994-435e-84bb-6ec106dccbdf",
-  "id": "Home_ticket_list",
+  "gitSyncId": "67f523bf5a24c965b149ec3d_88ddc904-7171-41ca-a09e-77fbc0537eeb",
+  "id": "Home Copy_ticket_product_areas",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"oracle_support_ticket\"\n{{DataBoardFilters.getFilters()}}\nAND status != 'Resolved' AND status != 'Ignore'\nAND slack_thread IS NOT NULL AND slack_thread != ''\nORDER BY updated_at DESC\nLIMIT 100;",
+      "body": "SELECT * FROM public.\"oracle_support_scenarios\";",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -22,14 +22,10 @@
       "name": "aforce_reader",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "ticket_list",
-    "pageId": "Home",
+    "name": "ticket_product_areas",
+    "pageId": "Home Copy",
     "userSetOnLoad": false
   }
 }

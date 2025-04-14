@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "[\"Pending on L1\", \"Pending on L2\"]",
+  "defaultOptionValue": "",
   "displayName": "MultiSelect",
   "dynamicBindingPathList": [
     {
@@ -42,10 +42,10 @@
   "key": "9w49m46sij",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Status",
+  "labelText": "Severity",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 0,
+  "leftColumn": 30,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -54,25 +54,23 @@
   "mobileRightColumn": 13,
   "mobileTopRow": 7,
   "needsErrorInfo": false,
-  "onFilterUpdate": "{{Ticket_List.run().then(() => {\n  showAlert('test', 'success');\n});}}",
+  "onFilterUpdate": "{{Ticket_List.run()}}",
   "onOptionChange": "{{QueryUtils.fetchData();}}",
   "optionLabel": "label",
-  "optionValue": "label",
-  "originalBottomRow": 12,
-  "originalTopRow": 5,
+  "optionValue": "value",
   "parentColumnSpace": 15.484375,
   "parentId": "0",
   "parentRowSpace": 10,
   "placeholderText": "Select option(s)",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 43,
   "searchTags": [
     "dropdown",
     "tags"
   ],
   "serverSideFiltering": false,
-  "sourceData": "{{TicketConstants.ticketStatus.map(s => ({\n\tlabel: s,\n\tvalue: s\n}))}}",
+  "sourceData": "{{TicketConstants.ticketSeverity.map(s => ({\n\tlabel: s,\n\tvalue: s.toLowerCase()\n}))}}",
   "tags": [
     "Select"
   ],
@@ -80,6 +78,6 @@
   "topRow": 5,
   "type": "MULTI_SELECT_WIDGET_V2",
   "version": 1,
-  "widgetId": "mtxqoq0bo1",
-  "widgetName": "filter_ticket_status"
+  "widgetId": "8pcrjy5mxe",
+  "widgetName": "filter_ticket_severity"
 }

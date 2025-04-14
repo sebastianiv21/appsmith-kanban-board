@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67f523bf5a24c965b149ec3d_452424fe-c7e0-4d6a-ba35-308a8edff9e2",
+  "id": "Home Copy_ImageLinks",
+  "unpublishedCollection": {
+    "name": "ImageLinks",
+    "pageId": "Home Copy",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "logMaps",
+        "value": "{\n  \"INTERCOM\": \"https://cdn.worldvectorlogo.com/logos/intercom-2.svg\",\n  \"ZENDESK\": \"https://cdn.worldvectorlogo.com/logos/zendesk-3.svg\",\n  \"DISCORD\": \"https://cdn.worldvectorlogo.com/logos/discord-6.svg\"\n}"
+      }
+    ]
+  }
+}

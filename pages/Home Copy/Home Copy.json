@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "67f523bf5a24c965b149ec3d_8984a100-00f8-44b0-ac74-b324c50007ab",
+  "gitSyncId": "67f523bf5a24c965b149ec3d_c9ce103d-ec6f-44b1-b8fe-91f434ef6900",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
@@ -36,7 +36,7 @@
         }
       }
     ],
-    "name": "Home",
-    "slug": "home"
+    "name": "Home Copy",
+    "slug": "home-copy"
   }
 }
