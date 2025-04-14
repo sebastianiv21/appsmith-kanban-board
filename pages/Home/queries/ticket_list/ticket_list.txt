@@ -3,4 +3,4 @@ SELECT * FROM public."oracle_support_ticket"
 AND status != 'Resolved' OR status != 'Ignore'
 AND slack_thread IS NOT NULL OR slack_thread != ''
 ORDER BY updated_at DESC
-LIMIT 10;
+LIMIT 50;

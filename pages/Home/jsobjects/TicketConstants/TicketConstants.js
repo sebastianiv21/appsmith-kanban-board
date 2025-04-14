@@ -52,5 +52,6 @@ export default {
 			label: "Community",
 			value: "community",
 		}
-	]
+	],
+	oracleApp: "https://internal.appsmith.com/app/oracle/ticket-details-662d74ffc3e4d34941e56ede?branch=master&environment=production"
 }

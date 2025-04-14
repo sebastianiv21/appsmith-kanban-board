@@ -22,6 +22,10 @@
       {
         "name": "ticketSupportTier",
         "value": "[{\n  label: \"N/A\",\n  value: \"n/a\"\n}, {\n  label: \"Enterprise\",\n  value: \"enterprise_edition\"\n}, {\n  label: \"Enterprise Trial\",\n  value: \"trial_enterprise\"\n}, {\n  label: \"Business\",\n  value: \"business_edition\"\n}, {\n  label: \"Business Trial\",\n  value: \"trial_business\"\n}, {\n  label: \"Community\",\n  value: \"community\"\n}]"
+      },
+      {
+        "name": "oracleApp",
+        "value": "\"https://internal.appsmith.com/app/oracle/ticket-details-662d74ffc3e4d34941e56ede?branch=master&environment=production\""
       }
     ]
   }

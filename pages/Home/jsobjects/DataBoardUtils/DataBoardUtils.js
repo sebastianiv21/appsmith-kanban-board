@@ -9,7 +9,6 @@ export default {
   );
 
   const columns = {};
-  const columnOrder = columnsArray.map((col) => String(col.id));
 
   for (const column of columnsArray) {
     const { id, scenario } = column;
@@ -22,6 +21,8 @@ export default {
       ticketIds: validTicketIds,
     };
   }
+		
+	const columnOrder = Object.values(columns).sort((a,b) => b.ticketIds.length - a.ticketIds.length).map((col) => String(col.id));
 
   return { tickets, columns, columnOrder };
 }
