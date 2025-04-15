@@ -1,7 +1,7 @@
 export default {
-	createBoardData() {
-	const ticketsArray = ticket_list.data;
-	const columnsArray = ticket_product_areas.data;
+	async createBoardData() {
+	const ticketsArray = await ticket_list.run();
+	const columnsArray = await ticket_product_areas.run();
   const tickets = Object.fromEntries(
     ticketsArray.map((ticket) => {
       return [ticket.id, {...ticket, id: String(ticket.id), created_at: moment(ticket["created_at"]).format('Do MMM YY')}];

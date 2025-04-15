@@ -23,9 +23,9 @@
       "pluginId": "postgres-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "ticket_product_areas",
     "pageId": "Home",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

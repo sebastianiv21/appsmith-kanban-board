@@ -1,6 +1,6 @@
 SELECT * FROM public."oracle_support_ticket"
 {{DataBoardFilters.getFilters()}}
-AND status != 'Resolved' AND status != 'Ignore'
+AND status NOT IN ('Resolved', 'Ignore')
 AND slack_thread IS NOT NULL AND slack_thread != ''
 ORDER BY updated_at DESC
 LIMIT 100;

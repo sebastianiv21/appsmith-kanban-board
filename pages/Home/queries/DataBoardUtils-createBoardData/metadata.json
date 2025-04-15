@@ -22,10 +22,10 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "fullyQualifiedName": "DataBoardUtils.createBoardData",
     "name": "createBoardData",
     "pageId": "Home",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }

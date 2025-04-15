@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"oracle_support_ticket\"\n{{DataBoardFilters.getFilters()}}\nAND status != 'Resolved' AND status != 'Ignore'\nAND slack_thread IS NOT NULL AND slack_thread != ''\nORDER BY updated_at DESC\nLIMIT 100;",
+      "body": "SELECT * FROM public.\"oracle_support_ticket\"\n{{DataBoardFilters.getFilters()}}\nAND status NOT IN ('Resolved', 'Ignore')\nAND slack_thread IS NOT NULL AND slack_thread != ''\nORDER BY updated_at DESC\nLIMIT 100;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,9 +27,9 @@
         "key": "body"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "ticket_list",
     "pageId": "Home",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
