@@ -22,7 +22,7 @@ export default {
     };
   }
 		
-	const columnOrder = Object.values(columns).sort((a,b) => b.ticketIds.length - a.ticketIds.length).map((col) => String(col.id));
+	const columnOrder = Object.values(columns).filter((c) => c.ticketIds.length > 0).sort((a,b) => b.ticketIds.length - a.ticketIds.length).map((col) => String(col.id));
 
   return { tickets, columns, columnOrder };
 	}

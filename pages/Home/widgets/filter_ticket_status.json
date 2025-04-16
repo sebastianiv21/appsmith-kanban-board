@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 12,
   "boxShadow": "none",
-  "defaultOptionValue": "[\"Pending on L1\", \"Pending on L2\"]",
+  "defaultOptionValue": "[\"Pending on L1\", \"Pending on L2\", \"Pending on Customer\"]",
   "displayName": "MultiSelect",
   "dynamicBindingPathList": [
     {
